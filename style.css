@@ -37,7 +37,7 @@ body{
     opacity: 0.3;
 }
 
-img{
+.slider img{
     width: 120%;
     height: 120%;
     animation: zoom-o 5s linear infinite;
@@ -111,13 +111,13 @@ img{
         visibility: hidden;
     }
     60%{
-        visibility: visible;
+        visibility: hidden;
     }
     80%{
         visibility: hidden;
     }
     100%{
-        visibility: visible;
+        visibility: hidden;
     }
 }
 
